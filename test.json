@@ -1,0 +1,40 @@
+   {
+    "modelId": "meta.llama3-3-70b-instruct-v1:0",
+    "contentType": "application/json",
+    "accept": "application/json",
+    "body": "{\"prompt\":\"Act as the pandit in indian marriages\",\"max_gen_len\":512,\"temperature\":0.5,\"top_p\":0.9}"
+   }
+
+   
+   {
+    "modelId": "amazon.nova-reel-v1",
+    "contentType": "application/json",
+    "accept": "application/json",
+    "body": "{\"modelInput\":{\"taskType\":\"TEXT_VIDEO\",\"textToVideoParams\":{\"text\":\"your input text here\"},\"videoGenerationConfig\":{\"durationSeconds\":6,\"fps\":24,\"dimension\":\"1280x720\"}},\"outputDataConfig\":{\"s3OutputDataConfig\":{\"s3Uri\":\"s3://your-bucket-name\"}}}"
+   }
+
+   {
+      "modelId": "anthropic.claude-3-7-sonnet-20250219-v1:0",
+      "contentType": "application/json",
+      "accept": "application/json",
+      "body": {
+        "anthropic_version": "bedrock-2023-05-31",
+        "max_tokens": 200,
+        "top_k": 250,
+        "stop_sequences": [],
+        "temperature": 1,
+        "top_p": 0.999,
+        "messages": [
+          {
+            "role": "user",
+            "content": [
+              {
+                "type": "text",
+                "text": "hello world"
+              }
+            ]
+          }
+        ]
+      }
+    }
+    arn:aws:bedrock:us-east-1:014498626498:inference-profile/us.anthropic.claude-3-7-sonnet-20250219-v1:0

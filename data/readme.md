@@ -1,0 +1,1 @@
+Put ur Input files in this Folder and Embeddings will be generated in Faiss_index folder.
