@@ -1,4 +1,4 @@
-import json  # Added missing import
+import json  
 from langchain_aws import BedrockEmbeddings, ChatBedrock
 import boto3
 import streamlit as st
@@ -28,7 +28,7 @@ def test_embedding_access():
             body=json.dumps({"inputText": "test"}))
         return True
 
-    except Exception as e:  # Added missing except clause
+    except Exception as e: 
         st.error(f"Access Denied: {str(e)}")
         return False
         
