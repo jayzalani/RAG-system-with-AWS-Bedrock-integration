@@ -118,5 +118,6 @@ def main():
             except Exception as e:
                 st.error(f"Query failed: {str(e)}")
 
+# to start the application this is necessary
 if __name__ == "__main__":
     main()
