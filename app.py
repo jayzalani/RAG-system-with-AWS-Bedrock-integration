@@ -85,7 +85,7 @@ def get_qa_chain():
         chain_type_kwargs={"prompt": PROMPT},
         return_source_documents=True
     )
-
+# main function that is used here 
 def main():
     st.set_page_config("PDF Chat with Titan Embeddings")
     st.header("Document Chat Assistant")
