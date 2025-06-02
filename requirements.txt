@@ -1,8 +1,24 @@
+
+No, you don't need to run the requirements file in your venv before pushing to GitHub.
+
+Since your app is already working in VS Code, it means you already have all the necessary packages installed in your local environment. Here's what you should do:
+
+Just push the updated requirements.txt directly:
+Update your requirements.txt with the corrected version I provided
+Push to GitHub immediately
+Let the deployment platform (Streamlit Cloud) install the packages
+Why you don't need to reinstall locally:
+Your local environment already has the packages (that's why it works in VS Code)
+The requirements.txt is primarily for the deployment environment, not your local development
+
+
+
 boto3
 awscli
 pypdf
 langchain
+langchain-community
+langchain-text-splitters
 streamlit
 faiss-cpu
 langchain-aws
-faiss-cpu
