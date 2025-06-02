@@ -1,6 +1,6 @@
 # 🧠 DocuMind AI
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://documind-ai.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://documentmindai.streamlit.app/)
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![AWS Bedrock](https://img.shields.io/badge/AWS-Bedrock-orange.svg)](https://aws.amazon.com/bedrock/)
@@ -199,7 +199,7 @@ The application will be available at `http://localhost:8501`
 
 #### Production Deployment
 The app is deployed on Streamlit Cloud and accessible at:
-**[DocuMind AI · Streamlit](https://documind-ai.streamlit.app/)**
+**[DocuMind AI · Streamlit](https://documentmindai.streamlit.app/)**
 
 ## 📋 Usage Guide
 
